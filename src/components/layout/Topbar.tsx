@@ -116,7 +116,7 @@ function GlobalSearch() {
   );
 }
 
-export function Topbar({ onMenuClick, user, onLogout }: TopbarProps) {
+export function Topbar({ onMenuClick, user }: TopbarProps) {
   const [profileOpen, setProfileOpen] = useState(false);
   const profileRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
